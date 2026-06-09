@@ -12,23 +12,23 @@ int main(){
     //left shift using while loop
     cout << "Enter a number: " <<endl;
     cin >> a; //15
-    cout << "Before shifting: a = " << a << endl;
+    cout << "Before left shifting: a = " << a << endl;
     int i=0;
     while(i<3){
         a=a<<1; //a=15*2=30...left shift
         i++;
-        cout << "After shifting: a = " << a << endl;
+        cout << "After left shifting: a = " << a << endl;
     }
 
     //right shift using while loop
     cout << "Enter a number: " <<endl;
     cin >> b; //15
-    cout << "Before shifting: b = " << b << endl;
+    cout << "Before right shifting: b = " << b << endl;
     i=0;
     while(i<3){
         b=b>>1; //b=15/2=7...right shift
         i++;
-        cout << "After shifting: b = " << b << endl;
+        cout << "After right shifting: b = " << b << endl;
     }
     return 0;
 }
